@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "jiti": "^2.5.1",
     "prettier": "^3.6.2",
     "turbo": "^2.5.5",
     "typescript": "5.8.3"
@@ -19,6 +20,9 @@
   "packageManager": "bun@1.2.18",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "apps/*/*",
+    "apps/backend/svc/*",
+    "packages/*",
+    "packages/configs/*"
   ]
 }
